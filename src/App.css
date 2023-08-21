@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-image: url('./baseball_background.jpeg');
+  background-size: cover; /* Adjust how the image covers the container */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Add your other styles */
+
+.lineup-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lineup-slot {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+
+  /* Set width and center horizontally */
+  width: 50%;
+}
+
+.lineup-slot:hover {
+  background-color: teal;
+}
+
+.slot-number,
+.slot-position {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.slot-link {
+  flex: 3;
+  padding: 0 10px;
+}
+
+.slot-link a {
+  text-decoration: none;
+  color: #333;
+}
+
