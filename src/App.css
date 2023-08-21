@@ -44,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 
@@ -66,6 +66,7 @@ body {
   align-items: center; /* Vertically center the text */
   justify-content: center; /* Horizontally center the text */
   text-align: center;
+  border: black;
 }
 
 .slot-link {
