@@ -9,6 +9,25 @@ body {
   background-size: cover; /* Adjust how the image covers the container */
   background-position: center;
   background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.title {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.title h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.title h3 {
+  font-size: 32px;
+  color: white;
+  margin: 5px 0;
 }
 
 
@@ -16,8 +35,9 @@ body {
 
 .lineup-card {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .lineup-slot {
@@ -34,19 +54,19 @@ body {
 }
 
 .lineup-slot:hover {
-  background-color: teal;
+  background-color: lightblue;
 }
 
 .slot-number,
 .slot-position {
   flex: 1;
   text-align: center;
-  font-weight: bold;
 }
 
 .slot-link {
   flex: 3;
   padding: 0 10px;
+  font-weight: bold;
 }
 
 .slot-link a {

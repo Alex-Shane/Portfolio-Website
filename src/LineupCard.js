@@ -5,8 +5,8 @@ function LineupCard() {
   const lineupData = [
     { order: 1, linkText: 'Resume', linkTo: process.env.PUBLIC_URL + '/Alex-Shane-Resume.pdf', position: 'CF'},
     { order: 2, linkText: 'Transcript', linkTo: process.env.PUBLIC_URL + '/Transcript.pdf', position: 'SS'},
-    { order: 3, linkText: 'Project #1: Knight Investor (Flask + JavaScript)', linkTo: 'https://knight-investor.onrender.com', position: '1B'},
-    { order: 4, linkText: 'Project #2: Tree Buddy (Java + SQL)', linkTo: 'https://www.youtube.com/watch?v=rnfThrgctCs&ab_channel=AlexShane', position: 'LF'},
+    { order: 3, linkText: 'Project #1: Knight Investor', linkTo: 'https://knight-investor.onrender.com', position: '1B'},
+    { order: 4, linkText: 'Project #2: Tree Buddy', linkTo: 'https://www.youtube.com/watch?v=rnfThrgctCs&ab_channel=AlexShane', position: 'LF'},
     { order: 5, linkText: 'Skills', linkTo: "Use react Dom router for this", position: 'C'},
     { order: 6, linkText: 'Referals', linkTo: process.env.PUBLIC_URL + '/Recommendation-for-Alex-Shane.pdf', position: '2B'},
     { order: 7, linkText: 'About', linkTo: "use react router dom for this", position: 'RF'},
@@ -16,6 +16,10 @@ function LineupCard() {
 
   return (
     <div className="lineup-card">
+        <div className='title'>
+        <h1> Alex Shane</h1>
+        <h3> Software Engineer </h3>
+    </div>
       {lineupData.map((slot, index) => (
         <LineupSlot
           key={index}
