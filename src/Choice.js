@@ -19,20 +19,14 @@ const Choice = ({ path, type, setShowChoice }) => {
   return (
     <div className="choice-component">
       <div className="choice-buttons">
-        <div className="button">
-          <button>
+          <button className = "button">
             <a href={path} download={load}> Download </a>
           </button>
-        </div>
-        <div className="button">
-          <button>
+          <button className = "button">
             <a href={path}> View in Browser </a>
           </button>
-        </div>
       </div>
-      <div className="close-button">
-        <button onClick={handleClose}> Close </button>
-      </div>
+    <button className= "close-button" onClick={handleClose}> Close </button>
     </div>
   );
 };
