@@ -5,7 +5,7 @@ import Skills from './Skills'
 function App() {
   return (
     <div className="App">
-      <Skills />
+      <LineupCard />
     </div>
   );
 }

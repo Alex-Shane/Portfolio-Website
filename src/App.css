@@ -53,7 +53,7 @@ body {
 }
 
 .lineup-slot:hover {
-  background-color: lightblue;
+  background-color: #FFFDD0;
 }
 
 .slot-number, .slot-position{
@@ -152,7 +152,7 @@ body {
 
 .skills-icons {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
