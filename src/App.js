@@ -1,12 +1,16 @@
-import './App.css';
-import LineupCard from './LineupCard';
-import Skills from './Skills'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LineupCard from './LineupCard'
 
 function App() {
   return (
-    <div className="App">
-      <LineupCard />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/">
+          {<LineupCard />}
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
