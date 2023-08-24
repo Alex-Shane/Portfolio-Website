@@ -41,25 +41,26 @@ export default function about() {
                     </li>
                 </ul>
             </div>
-            <div className="items-center justify-center flex-col flex space-y-2">
+            <div className="items-center justify-center flex-col flex space-y-2 relative -top-3">
                 <button className = "bg-blue-200 font-bold flex rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
                     <Link className="text-2xl text-center"href="https://www.youtube.com/watch?v=rnfThrgctCs&t=8s&ab_channel=AlexShane" target="_blank" rel="noreferrer"> 
                         Live Demonstration: 3 Minute Run Through
                     </Link>
                 </button>
                 <button className = "bg-blue-200 items-center flex font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
-                    <Link className="text-2xl" href="/files/java_files" download>
-                        Download Source Code 
+                    <Link className="text-2xl" href="../java_files">
+                        View Source Code 
                     </Link>
                 </button>
-            </div>
-            </div>
-            
-            <div className="bg-blue-200 font-bold items-center rounded-xl px-8 py-3 relative -left-2 top-4 text-xl transition ease-in-out hover:bg-blue-800">
+                <div className="bg-blue-200 font-bold items-center rounded-xl px-8 py-3 relative -left-2 text-2xl transition ease-in-out hover:bg-blue-800">
                 <button>
                     <Link href = "/"> Back </Link>
                 </button>
             </div>
+            </div>
+            </div>
+            
+            
         </div>
       );
     }
