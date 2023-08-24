@@ -6,14 +6,14 @@ import Link from 'next/link';
 export default function Home() {
 
   const lineupData = [
-    { order: 1, linkText: 'Resume', linkTo: '/resume', position: 'CF'},
-    { order: 2, linkText: 'Transcript', linkTo: '/transcript', position: 'SS'},
-    { order: 3, linkText: 'Project #1: Knight Investor', linkTo: '/knight-investor', position: '1B'},
-    { order: 4, linkText: 'Project #2: Tree Buddy', linkTo: '/tree-buddy', position: 'LF'},
-    { order: 5, linkText: 'Skills', linkTo: "/skills", position: 'C'},
+    { order: 1, linkText: 'Project #1: Knight Investor', linkTo: '/knight-investor', position: '1B'},
+    { order: 2, linkText: 'Project #2: Tree Buddy', linkTo: '/tree-buddy', position: 'CF'},
+    { order: 3, linkText: 'Skills', linkTo: "/skills", position: '3B'},
+    { order: 4, linkText: 'About', linkTo: "/about", position: 'RF'},
+    { order: 5, linkText: 'Resume', linkTo: '/resume', position: 'LF'},
     { order: 6, linkText: 'Referals', linkTo: '/referals', position: '2B'},
-    { order: 7, linkText: 'About', linkTo: "/about", position: 'RF'},
-    { order: 8, linkText: 'Github', linkTo: 'https://github.com/Alex-Shane', position: "3B"},
+    { order: 7, linkText: 'Transcript', linkTo: '/transcript', position: 'SS'},
+    { order: 8, linkText: 'Github', linkTo: 'https://github.com/Alex-Shane', position: "C"},
     { order: 9, linkText: 'LinkedIn', linkTo: 'https://www.linkedin.com/in/alex-shane-b34337249/', position: "P"}
   ];
 
