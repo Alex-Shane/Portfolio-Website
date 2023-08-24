@@ -20,7 +20,7 @@ export default function Home() {
   return (
         <div className="flex justify-center flex-col items-center">
     
-            <div className='text-white text-6xl font-extrabold pt-7 pb-4 items-center text-center py-3'>
+            <div className='text-white text-6xl font-extrabold pt-7 pb-4 items-center text-center py-3 space-y-4'>
             <h1> Alex Shane</h1>
             <h3 className = "text-4xl"> Software Engineer </h3>
             </div>

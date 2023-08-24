@@ -1,6 +1,9 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/tree-buddy/page": "app/tree-buddy/page.js",
   "/referals/page": "app/referals/page.js",
-  "/about/page": "app/about/page.js"
+  "/resume/page": "app/resume/page.js",
+  "/about/page": "app/about/page.js",
+  "/transcript/page": "app/transcript/page.js"
 }

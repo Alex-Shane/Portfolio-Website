@@ -11,14 +11,14 @@ export default function resume() {
                 <h1> Resume </h1>
             </div>
             <div className="flex-row pb-5 space-x-3 text-xl pt-4">
-                <button className = "bg-blue-200 font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-pink-300">
+                <button className = "bg-blue-200 font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
                     <a
                         href="/files/Alex-Shane-Resume.pdf"
                         download>
                             Download
                     </a>
                 </button>
-                <button className = "bg-blue-200 font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-pink-300">
+                <button className = "bg-blue-200 font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
                     <a
                         href="/files/Alex-Shane-Resume.pdf"
                         target="_blank"
@@ -27,7 +27,7 @@ export default function resume() {
                     </a>
                 </button>
             </div>
-            <div className="bg-blue-200 font-bold rounded-xl px-8 py-2 text-xl relative -left-6 transition ease-in-out hover:bg-pink-300">
+            <div className="bg-blue-200 font-bold rounded-xl px-8 py-2 text-xl relative -left-6 transition ease-in-out hover:bg-blue-800">
                 <button>
                     <Link href = "/"> Back </Link>
                 </button>
