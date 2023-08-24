@@ -23,11 +23,11 @@ export default function about() {
                          ashane1230@gmail.com
                     </a> I look forward to talking soon!
                 </p>
-                <div className="bg-blue-200 font-bold rounded-xl px-8 py-3 relative -left-2 text-xl transition ease-in-out hover:bg-blue-800">
-                <button>
-                    <Link href = "/"> Back </Link>
-                </button>
-            </div>
+                <Link href = "/"> 
+                    <button className="bg-blue-200 font-bold rounded-xl px-8 py-3 relative -left-2 text-xl transition ease-in-out hover:bg-blue-800">
+                        Back 
+                    </button>
+                </Link>
             </div>
             
         </div>

@@ -27,77 +27,91 @@ export default function Home() {
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[0].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[0].linkTo}> {lineupData[0].linkText} </Link>
-                </div>
+                <Link className="slot-link" href = {lineupData[0].linkTo}> 
+                    <button>
+                        {lineupData[0].linkText}
+                    </button> 
+                </Link>
                 <div className="slot-position">{lineupData[0].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[1].order}</div>
-                <div className="slot-link">
-                    <Link href={lineupData[1].linkTo}> {lineupData[1].linkText} </Link>
-                </div>
+                <Link className="slot-link" href = {lineupData[1].linkTo}> 
+                    <button>
+                        {lineupData[1].linkText}
+                    </button> 
+                </Link>
                 <div className="slot-position">{lineupData[1].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[2].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[2].linkTo}> {lineupData[2].linkText} </Link>
-                </div>
+                <Link className="slot-link" href = {lineupData[2].linkTo}> 
+                    <button>
+                        {lineupData[2].linkText}
+                    </button> 
+                </Link>
                 <div className="slot-position">{lineupData[2].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[3].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[3].linkTo}> {lineupData[3].linkText} </Link>
-                </div>
+                <Link className="slot-link" href = {lineupData[3].linkTo}> 
+                    <button>
+                        {lineupData[3].linkText}
+                    </button> 
+                </Link>
                 <div className="slot-position">{lineupData[3].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[4].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[4].linkTo}> {lineupData[4].linkText} </Link>
-                </div>
+                <Link className="slot-link" href = {lineupData[4].linkTo}> 
+                    <button>
+                        {lineupData[4].linkText}
+                    </button> 
+                </Link>
                 <div className="slot-position">{lineupData[4].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[5].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[5].linkTo}> {lineupData[5].linkText} </Link>
-                </div>
+                <Link className="slot-link" href = {lineupData[5].linkTo}> 
+                    <button>
+                        {lineupData[5].linkText}
+                    </button> 
+                </Link>
                 <div className="slot-position">{lineupData[5].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[6].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[6].linkTo}> {lineupData[6].linkText} </Link>
-                </div>
+                <Link className="slot-link" href = {lineupData[6].linkTo}> 
+                    <button>
+                        {lineupData[6].linkText}
+                    </button> 
+                </Link>
                 <div className="slot-position">{lineupData[6].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[7].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[7].linkTo} target = "_blank" rel="noreferrer">
+                <Link className="slot-link" href = {lineupData[7].linkTo} target = "_blank" rel="noreferrer">
+                    <button>
                         {lineupData[7].linkText}
-                    </Link>
-                </div>
+                    </button>
+                </Link>
                 <div className="slot-position">{lineupData[7].position}</div>
             </div>
     
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[8].order}</div>
-                <div className="slot-link">
-                    <Link href = {lineupData[8].linkTo} target = "_blank" rel="noreferrer">
+                <Link className="slot-link" href = {lineupData[8].linkTo} target = "_blank" rel="noreferrer">
+                    <button>
                         {lineupData[8].linkText}
-                    </Link>
-                </div>
+                    </button>
+                </Link>
                 <div className="slot-position">{lineupData[8].position}</div>
             </div>
     

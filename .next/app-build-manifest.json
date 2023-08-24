@@ -5,6 +5,12 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -25,26 +31,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/transcript/page.js"
     ],
+    "/java_files/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/java_files/page.js"
+    ],
     "/tree-buddy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/tree-buddy/page.js"
     ],
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/skills/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/skills/page.js"
-    ],
-    "/java_files/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/java_files/page.js"
     ]
   }
 }

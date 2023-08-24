@@ -9,11 +9,11 @@ export default function skills() {
         <div className="font-bold items-center justify-center rounded-xl px-8 py-3 relative -left-2 text-2xl space-y-3">
             <div className="grid grid-cols-3 gap-4 relative left-12">
                 <div className="col-span-1 space-y-2">
-                    <button className="bg-blue-200 font-bold flex rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
-                        <a href="/files/java_files/AddPage.java" download="AddPage.java" className="text-2xl text-center">
+                    <Link href="/files/java_files/AddPage.java" download="AddPage.java">
+                        <button className="bg-blue-200 font-bold flex rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
                             Add Page
-                        </a>
-                    </button>
+                        </button>
+                    </Link>
                     <button className="bg-blue-200 font-bold flex rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
                         <a href="/files/java_files/Checker.java" download="Checker.java" className="text-2xl text-center">
                             Checker
