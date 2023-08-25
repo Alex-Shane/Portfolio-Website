@@ -9,7 +9,7 @@ export default function about() {
             <h1 className = "text-white text-7xl font-extrabold pb-2"> Knight Investor </h1>
             <div className='bg-sky-200 text-white text-6xl items-center text-center px-8 py-3 space-y-5 w-3/4'>
             <h5 className="italic text-5xl font-bold"> Description: </h5>
-                <p className="text-xl font-normal relative -top-3">
+                <p className="text-xl text-black font-normal relative -top-3">
                 Welcome to Knight Investor: a simple, easy-to-use stock market website that was designed for newcomers to investing.
                 On the site, you can create daily, weekly, or monthly stock reports, which give you a rundown of the best, and worst 
                 stocks from the period of your choice. Our reports span hundreds of industries and include the biggest stock exchanges 
@@ -21,7 +21,7 @@ export default function about() {
                 <h5 className= "italic text-3xl relative -top-8 font-semibold">
                     Languages and Tools:
                 </h5>
-                <ul className="list-disc list-inside pl-4 text-blue-900 relative -top-8">
+                <ul className="list-disc list-inside pl-4 text-blue-900 relative -top-8 font-bold">
                     <li> Python </li>
                     <li> Flask </li>
                     <li> YFinance API </li> 
@@ -35,37 +35,35 @@ export default function about() {
                 <h5 className = "italic text-3xl relative -top-8 font-semibold"> 
                     Topics Covered:
                 </h5>
-                <ul className="list-disc list-inside pl-4 text-blue-900 relative -top-8">
-                    <li> API Usage: <span className="text-white text-normal">implemented YFinance API to complete long, tedious scrapes</span> </li>
-                    <li> Web Deployment/Continuous Deployment: <span className="text-white text-normal"> deployed site live on Render with live updates after github commit</span> </li>
-                    <li> UI/UX: <span className="text-white text-normal"> crafted css and HTML code compatible with Jinja2 to create simple, elegant user experience</span> </li>
-                    <li> Data Structures: <span className="text-white text-normal"> utilized dictionaries quick insertion and deletion runtimes, enabling optimized report creation</span>
+                <ul className="list-disc list-inside pl-4 text-blue-900 font-bold relative -top-8">
+                    <li> API Usage: <span className="text-black font-normal">implemented YFinance API to complete long, tedious scrapes</span> </li>
+                    <li> Web Deployment/Continuous Deployment: <span className="text-black font-normal"> deployed site live on Render with live updates after github commit</span> </li>
+                    <li> UI/UX: <span className="text-black font-normal"> crafted css and HTML code compatible with Jinja2 to create simple, elegant user experience</span> </li>
+                    <li> Data Structures: <span className="text-black font-normal"> utilized dictionaries quick insertion and deletion runtimes, enabling optimized report creation</span>
                     </li>
-                    <li> Data Manipulation: <span className="text-white text-normal"> employed Pandas DataFrame to quickly and efficiently load data from csv files and sort/filter them based on desired industry</span>
+                    <li> Data Manipulation: <span className="text-black font-normal"> employed Pandas DataFrame to quickly and efficiently load data from csv files and sort/filter them based on desired industry</span>
                     </li>
-                    <li> Object Oriented Programming: <span className="text-white text-normal"> created classes to contain functionality of stocks, pdf writers, csv helpers, and individual reports</span></li>
+                    <li> Object Oriented Programming: <span className="text-black font-normal"> created classes to contain functionality of stocks, pdf writers, csv helpers, and individual reports</span></li>
                 </ul>
             </div>
-            <div className="items-center justify-center flex-col flex space-y-2 relative -top-8">
-                <button className = "bg-blue-200 font-bold flex rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
+            <div className="items-center justify-center flex space-x-8 relative -top-8 -left-3">
                     <Link className="text-2xl text-center"href="https://knight-investor.onrender.com/" target="_blank" rel="noreferrer"> 
-                        View Site
+                        <button className = "bg-black font-bold flex rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
+                            View Site
+                        </button>
                     </Link>
-                </button>
-                <button className = "bg-blue-200 items-center flex font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
                     <Link className="text-2xl" href="https://github.com/Alex-Shane/Knight-Investor" target="_blank" rel="noreferrer">
-                        View Source Code 
+                        <button className = "bg-black items-center flex font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
+                            View Source Code 
+                        </button>
                     </Link>
-                </button>
-                <div className="bg-blue-200 font-bold items-center rounded-xl px-8 py-3 relative -left-2 text-2xl transition ease-in-out hover:bg-blue-800">
-                    <button>
-                        <Link href = "/"> Back </Link>
-                    </button>
-                </div>
+                    <Link className="bg-black font-bold items-center rounded-xl px-8 py-2 relative -left-2 text-2xl transition ease-in-out hover:bg-blue-800" href="/">
+                        <button>
+                            Back
+                        </button>
+                    </Link>
             </div>
             </div>
-            
-            
         </div>
       );
     }

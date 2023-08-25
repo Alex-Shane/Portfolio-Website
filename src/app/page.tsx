@@ -6,10 +6,10 @@ import Link from 'next/link';
 export default function Home() {
 
   const lineupData = [
-    { order: 1, linkText: 'Project #1: Knight Investor', linkTo: '/knight-investor', position: '1B'},
-    { order: 2, linkText: 'Project #2: Tree Buddy', linkTo: '/tree-buddy', position: 'CF'},
-    { order: 3, linkText: 'Skills', linkTo: "/skills", position: '3B'},
-    { order: 4, linkText: 'About', linkTo: "/about", position: 'RF'},
+    { order: 1, linkText: 'About', linkTo: "/about", position: 'RF'},
+    { order: 2, linkText: 'Project #1: Knight Investor', linkTo: '/knight-investor', position: '1B'},
+    { order: 3, linkText: 'Project #2: Tree Buddy', linkTo: '/tree-buddy', position: 'CF'},
+    { order: 4, linkText: 'Skills', linkTo: "/skills", position: '3B'},
     { order: 5, linkText: 'Resume', linkTo: '/resume', position: 'LF'},
     { order: 6, linkText: 'Referals', linkTo: '/referals', position: '2B'},
     { order: 7, linkText: 'Transcript', linkTo: '/transcript', position: 'SS'},

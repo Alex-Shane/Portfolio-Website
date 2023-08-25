@@ -13,27 +13,22 @@ export default function Referals() {
                 <h1> Referals </h1>
             </div>
             <div className="flex-row pb-5 space-x-3 text-xl pt-4">
-                <button className = "bg-blue-200 font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
-                    <a
-                        href="/files/Recommendation-for-Alex-Shane.pdf"
-                        download>
-                            Download
-                    </a>
-                </button>
-                <button className = "bg-blue-200 font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
-                    <a
-                        href="/files/Recommendation-for-Alex-Shane.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                            View in Browser
-                    </a>
-                </button>
+                <a href="/files/Recommendation-for-Alex-Shane.pdf" download="Rec_Letter.pdf">
+                    <button className = "bg-black font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
+                        Download
+                    </button>
+                </a>
+                <a href="/files/Recommendation-for-Alex-Shane.pdf" target="_blank" rel="noopener noreferrer">
+                    <button className = "bg-black font-bold rounded-xl px-8 py-2 transition ease-in-out hover:bg-blue-800">
+                        View in Browser
+                    </button> 
+                </a>
             </div>
-            <div className="bg-blue-200 font-bold rounded-xl px-8 py-2 text-xl relative -left-6 transition ease-in-out hover:bg-blue-800">
+            <Link className="bg-black font-bold rounded-xl px-8 py-2 text-xl relative -left-6 transition ease-in-out hover:bg-blue-800" href="/">
                 <button>
-                    <Link href = "/"> Back </Link>
+                    Back
                 </button>
-            </div>
+            </Link>
         </div>
       );
     }
