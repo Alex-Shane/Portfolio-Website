@@ -1,5 +1,5 @@
 "use client"
-import React from 'react';
+import React,{ useEffect, useState } from 'react';
 import Link from 'next/link';
 
 
@@ -16,10 +16,34 @@ export default function Home() {
     { order: 8, linkText: 'Github', linkTo: 'https://github.com/Alex-Shane', position: "C"},
     { order: 9, linkText: 'LinkedIn', linkTo: 'https://www.linkedin.com/in/alex-shane-b34337249/', position: "P"}
   ];
-
-  return (
-        <div className="flex justify-center flex-col items-center">
     
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust the breakpoint as needed
+    };
+
+    checkIsMobile(); // Check on initial load
+
+    window.addEventListener('resize', checkIsMobile); // Check on window resize
+
+    return () => {
+      window.removeEventListener('resize', checkIsMobile);
+    };
+  }, []);
+
+  if(isMobile) {
+    return (
+        <div className="bg-black text-center text-white font-bold text-3xl">
+            Portfolio Site does not support mobile devices. Please view on computer or larger screen.
+        </div>
+    );
+  }
+  
+  else{
+    return (
+        <div className="flex justify-center flex-col items-center">
             <div className='text-white text-6xl font-extrabold pt-7 pb-4 items-center text-center py-3 space-y-4'>
             <h1> Alex Shane</h1>
             <h3 className = "text-4xl"> Software Engineer </h3>
@@ -117,4 +141,5 @@ export default function Home() {
     
         </div>
       );
-    }
+  }
+}

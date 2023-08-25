@@ -594,6 +594,9 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .flex {
   display: flex;
 }
@@ -608,6 +611,9 @@ video {
 }
 .w-3\/4 {
   width: 75%;
+}
+.resize {
+  resize: both;
 }
 .list-inside {
   list-style-position: inside;
@@ -803,6 +809,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
