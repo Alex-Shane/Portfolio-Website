@@ -33,22 +33,18 @@ export default function Home() {
     };
   }, []);
 
-  if(isMobile) {
-    return (
-        <div className="bg-black text-center text-white font-bold text-3xl relative top-6">
-            Portfolio Site does not support mobile devices. Please view on computer or larger screen.
-        </div>
-    );
-  }
-  
-  else{
     return (
         <div className="flex justify-center flex-col items-center">
             <div className='text-white text-6xl font-extrabold pt-7 pb-4 items-center text-center py-3 space-y-4'>
             <h1> Alex Shane</h1>
             <h3 className = "text-4xl"> Software Engineer </h3>
+            {isMobile && (
+                <p className="text-lg mt-4 font-bold">
+                    *** Please note: This site is not optimized for mobile devices. View on larger screen for best experience ***
+                </p>
+            )}
             </div>
-    
+
             <div className="lineup-slot">
                 <div className="slot-number">{lineupData[0].order}</div>
                 <Link className="slot-link" href = {lineupData[0].linkTo}> 
@@ -142,4 +138,3 @@ export default function Home() {
         </div>
       );
   }
-}
