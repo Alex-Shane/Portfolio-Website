@@ -35,7 +35,7 @@ export default function Home() {
 
   if(isMobile) {
     return (
-        <div className="bg-black text-center text-white font-bold text-3xl pt-6">
+        <div className="bg-black text-center text-white font-bold text-3xl relative top-6">
             Portfolio Site does not support mobile devices. Please view on computer or larger screen.
         </div>
     );
