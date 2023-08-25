@@ -6,8 +6,8 @@ import Link from 'next/link';
 export default function resume() {
 
   return (
-        <div className="bg-none justify-center items-center flex-col flex text-center">
-            <div className="text-white text-7xl font-extrabold pt-7 pb-4 relative -left-2">
+        <div className="text-white bg-none justify-center items-center flex-col flex text-center">
+            <div className="text-7xl font-extrabold pt-7 pb-4 relative -left-2">
                 <h1> Resume </h1>
             </div>
             <div className="flex-row pb-5 space-x-3 text-xl pt-4">

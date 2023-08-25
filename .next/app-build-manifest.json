@@ -6,10 +6,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/knight-investor/page": [
+    "/java_files/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/knight-investor/page.js"
+      "static/chunks/app/java_files/page.js"
+    ],
+    "/tree-buddy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/tree-buddy/page.js"
     ],
     "/skills/page": [
       "static/chunks/webpack.js",
@@ -20,6 +25,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
+    ],
+    "/knight-investor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/knight-investor/page.js"
     ],
     "/resume/page": [
       "static/chunks/webpack.js",
@@ -40,16 +50,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
-    ],
-    "/tree-buddy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tree-buddy/page.js"
-    ],
-    "/java_files/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/java_files/page.js"
     ]
   }
 }
