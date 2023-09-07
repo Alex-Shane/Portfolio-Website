@@ -11,7 +11,7 @@ export default function Home() {
     { order: 3, linkText: 'Project #2: Tree Buddy', linkTo: '/tree-buddy', position: 'CF'},
     { order: 4, linkText: 'Skills', linkTo: "/skills", position: '3B'},
     { order: 5, linkText: 'Resume', linkTo: '/resume', position: 'LF'},
-    { order: 6, linkText: 'Referals', linkTo: '/referals', position: '2B'},
+    { order: 6, linkText: 'Referrals', linkTo: '/referals', position: '2B'},
     { order: 7, linkText: 'Transcript', linkTo: '/transcript', position: 'SS'},
     { order: 8, linkText: 'Github', linkTo: 'https://github.com/Alex-Shane', position: "C"},
     { order: 9, linkText: 'LinkedIn', linkTo: 'https://www.linkedin.com/in/alex-shane-b34337249/', position: "P"}

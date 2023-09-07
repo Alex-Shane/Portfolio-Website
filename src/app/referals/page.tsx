@@ -10,7 +10,7 @@ export default function Referals() {
   return (
         <div className="text-white bg-none justify-center items-center flex-col flex text-center">
             <div className="text-7xl font-extrabold pt-7 pb-4 relative -left-2">
-                <h1> Referals </h1>
+                <h1> Referrals </h1>
             </div>
             <div className="flex-row pb-5 space-x-3 text-xl pt-4">
                 <a href="/files/Recommendation-for-Alex-Shane.pdf" download="Rec_Letter.pdf">
