@@ -16,7 +16,7 @@ export default function about() {
                     Computer Science, with minors in Applied Math and Financial Economics while competing for national championships in baseball.
                     I am high performing, competitive person both academically and athletically. I have a strong passion for both tech and business, specifically
                     their intersection in quantitative analysis of problems and data facing clients in the financial services industry.
-                    I am drawn to designing and executing on the production of impactful software and analysis for clients, and I am constantly researching new topics 
+                    I am drawn to designing and executing on the production of impactful software and analysis for clients, and I am constantly researching new topics to 
                     improve my coding and quantitative capabilities. My projects and success in the classroom demonstrate my drive and reflect my skillset. I believe I will be a useful, 
                     impactful member of any team I join. Please feel free to contact me and set up a time to chat at {' '}
                     <a href="mailto:ashane1230@gmail.com" className="text-blue-800 underline font-bold" target = "_blank">
