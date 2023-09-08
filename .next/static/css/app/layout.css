@@ -732,6 +732,9 @@ video {
 .text-center {
   text-align: center;
 }
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -826,14 +829,8 @@ video {
   }
 }
 
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
   background-image: url(/_next/static/media/2048.78d66a7e.jpeg);

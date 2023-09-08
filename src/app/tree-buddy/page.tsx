@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function about() {
 
   return (
-        <div className="bg-none justify-center items-center flex-col flex text-center space-y-2">
+        <div className="bg-none justify-center items-center flex-col flex text-center space-y-2 font-serif">
             <h1 className = "text-white text-7xl font-extrabold pt-4"> Tree Buddy </h1>
             <div className='bg-sky-200 text-white text-6xl pb-4 items-center text-center px-8 py-3 space-y-7 w-3/4'>
             <h5 className="italic text-5xl font-bold"> Description: </h5>

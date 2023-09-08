@@ -8,7 +8,7 @@ export default function Referals() {
   
 
   return (
-        <div className="text-white bg-none justify-center items-center flex-col flex text-center">
+        <div className="text-white bg-none justify-center items-center flex-col flex text-center font-serif">
             <div className="text-7xl font-extrabold pt-7 pb-4 relative -left-2">
                 <h1> Referrals </h1>
             </div>

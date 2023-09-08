@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function skills() {
   return (
-    <div className="bg-none justify-center items-center flex-col flex text-center">
+    <div className="bg-none justify-center items-center flex-col flex text-center font-serif">
       <h1 className="text-white text-7xl font-extrabold pb-2"> Skills </h1>
       <div className="bg-sky-200 text-white text-6xl items-center text-center px-8 py-5 space-y-7 w-3/4 h-4/5">
         <div className="grid grid-cols-3 gap-4">

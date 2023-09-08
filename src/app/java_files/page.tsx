@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function skills() {
   return (
-    <div className="bg-none justify-center items-center flex-col flex text-center">
+    <div className="bg-none justify-center items-center flex-col flex text-center font-serif">
       <h1 className="text-white text-5xl font-extrabold pt-5 pb-4"> Java Files for Tree Buddy </h1>
       <div className="bg-sky-200 text-white text-6xl items-center text-center px-8 py-3 space-y-7 w-3/4 h-4/5">
         <div className="font-bold items-center justify-center rounded-xl px-8 py-3 relative -left-2 text-2xl space-y-3">

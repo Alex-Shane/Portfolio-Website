@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function about() {
 
   return (
-        <div className="bg-none justify-center items-center flex-col flex text-center">
+        <div className="bg-none justify-center items-center flex-col flex text-center font-serif">
             <div className="text-white text-7xl font-extrabold py-5 relative -left-2">
                 <h1> About </h1>
             </div>
