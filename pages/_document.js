@@ -7,10 +7,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-          />
+          <link rel="preload" href="../src/7099.jpeg" as="image"></link>
         </Head>
         <body>
           <Main />
