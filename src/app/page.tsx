@@ -34,15 +34,15 @@ export default function Home() {
   }, []);
 
     return (
-        <div className="flex justify-center flex-col items-center font-serif">
-            <div className='text-white text-6xl font-extrabold pt-7 pb-4 items-center text-center py-3 space-y-4'>
-            <h1> Alex Shane</h1>
-            <h3 className = "text-4xl"> Software Engineer </h3>
-            {isMobile && (
-                <p className="text-lg mt-4 font-bold">
-                    *** Please note: This site is not optimized for mobile devices. View on larger screen for best experience ***
-                </p>
-            )}
+        <div className="flex justify-center flex-col items-center font-serif text-center">
+            <div className='text-white font-extrabold p-2'>
+                <h1 className="text-6xl pb-2"> Alex Shane</h1>
+                <h3 className = "text-2xl pb-4"> Interested in fintech, investing, and crypto </h3>
+                {isMobile && (
+                    <p className="text-lg mt-4 font-bold">
+                        *** Please note: This site is not optimized for mobile devices. View on larger screen for best experience ***
+                    </p>
+                )}
             </div>
 
             <div className="lineup-slot">
